@@ -1,4 +1,4 @@
-function [sensors,total] = greedy(sensors, radius, time)
+function [sensors,total] = centralized_algorithm(sensors, radius, time)
       %   out =[];
          epislon = 0.05;
          tube = zeros(length(radius),1);
